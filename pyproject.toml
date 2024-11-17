@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "api-openai"
+version = "0.1.0"
+description = ""
+authors = ["Ishem <123887246+IshemZ@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+openai = "^1.54.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
